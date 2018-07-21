@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instagram.WebApi", "Instagram.WebApi\Instagram.WebApi.csproj", "{374275B9-997C-46BB-995F-C97EEA6B4BEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Instagram.WebApi", "Instagram.WebApi\Instagram.WebApi.csproj", "{374275B9-997C-46BB-995F-C97EEA6B4BEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instagram.Services", "Instagram.Services\Instagram.Services.csproj", "{F1FC9F46-05AC-4DCA-A331-E3AAAA4F5FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instagram.DAL", "Instagram.DAL\Instagram.DAL.csproj", "{67D2776D-5089-4ABB-8CCB-7E30FE9758E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instagram.Commands", "Instagram.Commands\Instagram.Commands.csproj", "{393FA174-ABF7-46E3-AC27-5EE182DD9186}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instagram.DTOs", "Instagram.DTOs\Instagram.DTOs.csproj", "{61F13C8E-E018-4A45-8296-6B84F93A27B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{374275B9-997C-46BB-995F-C97EEA6B4BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{374275B9-997C-46BB-995F-C97EEA6B4BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{374275B9-997C-46BB-995F-C97EEA6B4BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1FC9F46-05AC-4DCA-A331-E3AAAA4F5FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1FC9F46-05AC-4DCA-A331-E3AAAA4F5FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1FC9F46-05AC-4DCA-A331-E3AAAA4F5FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1FC9F46-05AC-4DCA-A331-E3AAAA4F5FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D2776D-5089-4ABB-8CCB-7E30FE9758E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D2776D-5089-4ABB-8CCB-7E30FE9758E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D2776D-5089-4ABB-8CCB-7E30FE9758E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D2776D-5089-4ABB-8CCB-7E30FE9758E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393FA174-ABF7-46E3-AC27-5EE182DD9186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393FA174-ABF7-46E3-AC27-5EE182DD9186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393FA174-ABF7-46E3-AC27-5EE182DD9186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393FA174-ABF7-46E3-AC27-5EE182DD9186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61F13C8E-E018-4A45-8296-6B84F93A27B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F13C8E-E018-4A45-8296-6B84F93A27B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F13C8E-E018-4A45-8296-6B84F93A27B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F13C8E-E018-4A45-8296-6B84F93A27B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

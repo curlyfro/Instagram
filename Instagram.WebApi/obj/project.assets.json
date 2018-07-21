@@ -12542,11 +12542,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\dbt\\source\\repos\\Instagram\\Instagram.WebApi\\Instagram.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\DBT\\Documents\\GitHub\\Instagram\\Instagram.WebApi\\Instagram.WebApi.csproj",
       "projectName": "Instagram.WebApi",
-      "projectPath": "c:\\users\\dbt\\source\\repos\\Instagram\\Instagram.WebApi\\Instagram.WebApi.csproj",
+      "projectPath": "C:\\Users\\DBT\\Documents\\GitHub\\Instagram\\Instagram.WebApi\\Instagram.WebApi.csproj",
       "packagesPath": "C:\\Users\\DBT\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\dbt\\source\\repos\\Instagram\\Instagram.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\DBT\\Documents\\GitHub\\Instagram\\Instagram.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
