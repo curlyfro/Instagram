@@ -1,0 +1,5 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Instagram.DTOs/obj/Debug/netcoreapp2.0/Instagram.DTOs.csprojResolveAssemblyReference.cache
