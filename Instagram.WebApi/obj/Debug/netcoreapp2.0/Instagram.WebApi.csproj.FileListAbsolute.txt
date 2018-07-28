@@ -1,0 +1,16 @@
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\bin\Debug\netcoreapp2.0\Instagram.WebApi.deps.json
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\bin\Debug\netcoreapp2.0\Instagram.WebApi.runtimeconfig.json
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\bin\Debug\netcoreapp2.0\Instagram.WebApi.runtimeconfig.dev.json
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\bin\Debug\netcoreapp2.0\Instagram.WebApi.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\bin\Debug\netcoreapp2.0\Instagram.WebApi.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\obj\Debug\netcoreapp2.0\Instagram.WebApi.csprojResolveAssemblyReference.cache
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\obj\Debug\netcoreapp2.0\Instagram.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\obj\Debug\netcoreapp2.0\Instagram.WebApi.AssemblyInfoInputs.cache
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\obj\Debug\netcoreapp2.0\Instagram.WebApi.AssemblyInfo.cs
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\obj\Debug\netcoreapp2.0\Instagram.WebApi.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\obj\Debug\netcoreapp2.0\Instagram.WebApi.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\bin\Debug\netcoreapp2.0\Instagram.DataAccess.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\bin\Debug\netcoreapp2.0\Instagram.Domain.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\bin\Debug\netcoreapp2.0\Instagram.DataAccess.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\bin\Debug\netcoreapp2.0\Instagram.Domain.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\obj\Debug\netcoreapp2.0\Instagram.WebApi.csproj.CopyComplete

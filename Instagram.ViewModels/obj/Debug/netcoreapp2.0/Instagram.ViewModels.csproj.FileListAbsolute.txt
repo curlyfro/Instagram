@@ -1,0 +1,12 @@
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.ViewModels\bin\Debug\netcoreapp2.0\Instagram.ViewModels.deps.json
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.ViewModels\bin\Debug\netcoreapp2.0\Instagram.ViewModels.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.ViewModels\bin\Debug\netcoreapp2.0\Instagram.ViewModels.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.ViewModels\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.ViewModels\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.ViewModels\obj\Debug\netcoreapp2.0\Instagram.ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.ViewModels\obj\Debug\netcoreapp2.0\Instagram.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.ViewModels\obj\Debug\netcoreapp2.0\Instagram.ViewModels.AssemblyInfoInputs.cache
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.ViewModels\obj\Debug\netcoreapp2.0\Instagram.ViewModels.AssemblyInfo.cs
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.ViewModels\obj\Debug\netcoreapp2.0\Instagram.ViewModels.csproj.CopyComplete
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.ViewModels\obj\Debug\netcoreapp2.0\Instagram.ViewModels.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.ViewModels\obj\Debug\netcoreapp2.0\Instagram.ViewModels.pdb

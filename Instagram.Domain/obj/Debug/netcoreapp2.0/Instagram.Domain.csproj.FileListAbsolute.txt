@@ -1,0 +1,12 @@
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Domain\bin\Debug\netcoreapp2.0\Instagram.Domain.deps.json
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Domain\bin\Debug\netcoreapp2.0\Instagram.Domain.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Domain\bin\Debug\netcoreapp2.0\Instagram.Domain.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Domain\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Domain\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Domain\obj\Debug\netcoreapp2.0\Instagram.Domain.csprojResolveAssemblyReference.cache
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Domain\obj\Debug\netcoreapp2.0\Instagram.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Domain\obj\Debug\netcoreapp2.0\Instagram.Domain.AssemblyInfoInputs.cache
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Domain\obj\Debug\netcoreapp2.0\Instagram.Domain.AssemblyInfo.cs
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Domain\obj\Debug\netcoreapp2.0\Instagram.Domain.csproj.CopyComplete
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Domain\obj\Debug\netcoreapp2.0\Instagram.Domain.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Domain\obj\Debug\netcoreapp2.0\Instagram.Domain.pdb

@@ -1,9 +1,12 @@
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.DataAccess\bin\Debug\netcoreapp2.0\Instagram.Domain.dll
-C:\Users\DBT\Documents\GitHub\Instagram\Instagram.DataAccess\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\DBT\Documents\GitHub\Instagram\Instagram.DataAccess\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\DBT\Documents\GitHub\Instagram\Instagram.DataAccess\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
-C:\Users\DBT\Documents\GitHub\Instagram\Instagram.DataAccess\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.xml
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.DataAccess\obj\Debug\netcoreapp2.0\Instagram.DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.DataAccess\obj\Debug\netcoreapp2.0\Instagram.DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.DataAccess\obj\Debug\netcoreapp2.0\Instagram.DataAccess.AssemblyInfoInputs.cache
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.DataAccess\obj\Debug\netcoreapp2.0\Instagram.DataAccess.AssemblyInfo.cs
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.DataAccess\bin\Debug\netcoreapp2.0\Instagram.DataAccess.deps.json
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.DataAccess\bin\Debug\netcoreapp2.0\Instagram.DataAccess.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.DataAccess\bin\Debug\netcoreapp2.0\Instagram.DataAccess.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.DataAccess\bin\Debug\netcoreapp2.0\Instagram.Domain.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.DataAccess\obj\Debug\netcoreapp2.0\Instagram.DataAccess.csproj.CopyComplete
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.DataAccess\obj\Debug\netcoreapp2.0\Instagram.DataAccess.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.DataAccess\obj\Debug\netcoreapp2.0\Instagram.DataAccess.pdb

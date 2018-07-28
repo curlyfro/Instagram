@@ -1,0 +1,8 @@
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\bin\Debug\netcoreapp2.0\Instagram.Commands.deps.json
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\bin\Debug\netcoreapp2.0\Instagram.Commands.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\bin\Debug\netcoreapp2.0\Instagram.Commands.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\obj\Debug\netcoreapp2.0\Instagram.Commands.csproj.CoreCompileInputs.cache
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\obj\Debug\netcoreapp2.0\Instagram.Commands.AssemblyInfoInputs.cache
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\obj\Debug\netcoreapp2.0\Instagram.Commands.AssemblyInfo.cs
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\obj\Debug\netcoreapp2.0\Instagram.Commands.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\obj\Debug\netcoreapp2.0\Instagram.Commands.pdb
