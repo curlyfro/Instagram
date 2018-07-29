@@ -31,7 +31,7 @@ namespace Instagram.WebApi
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"),
                     b => b.MigrationsAssembly("Instagram.DataAccess")));
-
+            
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {

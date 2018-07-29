@@ -7,7 +7,7 @@ namespace Instagram.ViewModels.ProfileViewModels
 {
     public class PostViewModel
     {
-        public int PostId { get; set; }
+        public Guid PostId { get; set; }
         public string UserName { get; set; }
         public string PhotoPath { get; set; }
         public string Description { get; set; }

@@ -1,9 +1,0 @@
-C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Querying\bin\Debug\netcoreapp2.0\Instagram.Querying.deps.json
-C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Querying\bin\Debug\netcoreapp2.0\Instagram.Querying.dll
-C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Querying\bin\Debug\netcoreapp2.0\Instagram.Querying.pdb
-C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Querying\obj\Debug\netcoreapp2.0\Instagram.Querying.csprojResolveAssemblyReference.cache
-C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Querying\obj\Debug\netcoreapp2.0\Instagram.Querying.csproj.CoreCompileInputs.cache
-C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Querying\obj\Debug\netcoreapp2.0\Instagram.Querying.AssemblyInfoInputs.cache
-C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Querying\obj\Debug\netcoreapp2.0\Instagram.Querying.AssemblyInfo.cs
-C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Querying\obj\Debug\netcoreapp2.0\Instagram.Querying.dll
-C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Querying\obj\Debug\netcoreapp2.0\Instagram.Querying.pdb
