@@ -22,16 +22,14 @@ namespace Instagram.ViewModels.ProfileViewModels
             if (!String.IsNullOrEmpty(text))
             {
                 var tagMatches = regex.Matches(Description);
-                if (tagMatches != null)
+                foreach (Match match in tagMatches)
                 {
-                    foreach (Match match in tagMatches)
-                    {
-                        Description = Description.Replace($"#{match.Value}",
-                            String.Format(
-                                $"<a href=\"/Manage/SearchPost?tag={match.Value}\" >" +
-                                $"#{match.Value}</a>"));
-                    }
+                    Description = Description.Replace($"#{match.Value}",
+                        String.Format(
+                            $"<a href=\"/Manage/SearchPost?tag={match.Value}\" >" +
+                            $"#{match.Value}</a>"));
                 }
+
             }
         }
     }
