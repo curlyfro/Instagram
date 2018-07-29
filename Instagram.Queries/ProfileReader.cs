@@ -29,6 +29,7 @@ namespace Instagram.Queries
 
             var profile = new ProfileViewModel
             {
+                UserId = user.Id,
                 UserName = user.UserName,
                 FullName = user.FullName,
                 ProfileDesc = user.ProfileDesc

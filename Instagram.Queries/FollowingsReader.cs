@@ -29,6 +29,7 @@ namespace Instagram.Queries
             {
                 var viewModel = new BaseUserViewModel
                 {
+                    UserId = following.Id,
                     MainPhotoPath = following.MainPhotoPath,
                     UserName = following.UserName
                 };
