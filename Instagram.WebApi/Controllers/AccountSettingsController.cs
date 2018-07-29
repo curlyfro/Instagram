@@ -20,7 +20,7 @@ namespace Instagram.WebApi.Controllers
 {
     [Authorize]
     [Produces("application/json")]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     public class AccountSettingsController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
@@ -46,7 +46,7 @@ namespace Instagram.WebApi.Controllers
         }
 
         [TempData]
-        public string StatusMessage { get; set; }
+        private string StatusMessage { get; set; }
 
         [HttpPost]
         [ValidateAntiForgeryToken]

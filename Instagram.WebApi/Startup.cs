@@ -5,13 +5,17 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using Instagram.DataAccess;
+using Instagram.Domain;
 using Instagram.Services.Authorization;
 using Instagram.Services.Extensions;
+using Instagram.Services.Hashtag;
+using Instagram.Services.Senders;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -45,9 +49,15 @@ namespace Instagram.WebApi
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
 
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+
             services.AddSingleton<IJwtFactory, JwtFactory>();
 
             services.TryAddTransient<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddTransient<IEmailSender, EmailSender>();
+            services.AddTransient<HashtagFinder>();
 
             var jwtAppSettingOptions = Configuration.GetSection(nameof(JwtIssuerOptions));
 

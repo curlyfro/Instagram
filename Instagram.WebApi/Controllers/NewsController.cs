@@ -16,7 +16,7 @@ namespace Instagram.WebApi.Controllers
 {
     [Authorize]
     [Produces("application/json")]
-    [Route("api/[controller]/[action]")]
+    [Route("api/[controller]")]
     public class NewsController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;

@@ -119,7 +119,7 @@ namespace Instagram.WebApi.Controllers
             }
             var result = await _userManager.ConfirmEmailAsync(user, code);
             await _signInManager.SignInAsync(user, isPersistent: false);
-            return View(result.Succeeded ? "ConfirmEmail" : "Error");
+            return new OkObjectResult("Success");
         }
     }
 }

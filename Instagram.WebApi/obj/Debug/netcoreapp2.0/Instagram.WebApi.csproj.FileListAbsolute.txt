@@ -21,3 +21,5 @@ C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\bin\Debug\netcoreapp2.0
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\bin\Debug\netcoreapp2.0\Instagram.Queries.dll
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\bin\Debug\netcoreapp2.0\Instagram.Queries.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\bin\Debug\netcoreapp2.0\Instagram.Commands.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.WebApi\bin\Debug\netcoreapp2.0\Instagram.Commands.pdb

@@ -23,6 +23,7 @@
     ".NETCoreApp,Version=v2.0": {
       "Instagram.WebApi/1.0.0": {
         "dependencies": {
+          "Instagram.Commands": "1.0.0",
           "Instagram.DataAccess": "1.0.0",
           "Instagram.Queries": "1.0.0",
           "Instagram.Services": "1.0.0",
@@ -4267,6 +4268,19 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "Instagram.Commands/1.0.0": {
+        "dependencies": {
+          "Instagram.DataAccess": "1.0.0",
+          "Instagram.Services": "1.0.0",
+          "Instagram.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "Instagram.Commands.dll": {}
+        },
+        "compile": {
+          "Instagram.Commands.dll": {}
+        }
+      },
       "Instagram.DataAccess/1.0.0": {
         "dependencies": {
           "Instagram.Domain": "1.0.0",
@@ -6715,6 +6729,11 @@
       "sha512": "sha512-W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
+    },
+    "Instagram.Commands/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Instagram.DataAccess/1.0.0": {
       "type": "project",

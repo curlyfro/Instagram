@@ -7,3 +7,12 @@ C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\obj\Debug\netcoreapp2
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\obj\Debug\netcoreapp2.0\Instagram.Commands.dll
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\obj\Debug\netcoreapp2.0\Instagram.Commands.pdb
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\obj\Debug\netcoreapp2.0\Instagram.Commands.csprojResolveAssemblyReference.cache
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\bin\Debug\netcoreapp2.0\Instagram.DataAccess.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\bin\Debug\netcoreapp2.0\Instagram.Domain.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\bin\Debug\netcoreapp2.0\Instagram.Services.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\bin\Debug\netcoreapp2.0\Instagram.ViewModels.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\bin\Debug\netcoreapp2.0\Instagram.DataAccess.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\bin\Debug\netcoreapp2.0\Instagram.Services.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\bin\Debug\netcoreapp2.0\Instagram.ViewModels.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\bin\Debug\netcoreapp2.0\Instagram.Domain.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\obj\Debug\netcoreapp2.0\Instagram.Commands.csproj.CopyComplete
