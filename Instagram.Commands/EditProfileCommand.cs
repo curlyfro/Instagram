@@ -23,7 +23,7 @@ namespace Instagram.Commands
             _environment = environment;
         }
 
-        public void EditProfile(EditProfileViewModel model, ApplicationUser user)
+        public void Execute(EditProfileViewModel model, ApplicationUser user)
         {
             if (model.NewPhoto != null)
             {

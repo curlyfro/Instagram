@@ -18,7 +18,7 @@ namespace Instagram.Commands
             _context = context;
         }
 
-        public void PutLike(Guid postId, ApplicationUser currentUser)
+        public void Execute(Guid postId, ApplicationUser currentUser)
         {
             var post = _context.Posts
                 .Include(p=>p.Likes)

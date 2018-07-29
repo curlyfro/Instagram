@@ -27,7 +27,7 @@ namespace Instagram.Commands
             _appEnvironment = appEnvironment;
         }
 
-        public void CreatePost(ApplicationUser currentUser, CreatePostViewModel viewModel)
+        public void Execute(ApplicationUser currentUser, CreatePostViewModel viewModel)
         {
             string path = $"/files/{Guid.NewGuid()}_{viewModel.Photo.FileName}";
 

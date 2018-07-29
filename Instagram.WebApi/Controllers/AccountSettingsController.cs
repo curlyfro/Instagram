@@ -91,7 +91,7 @@ namespace Instagram.WebApi.Controllers
 
             try
             {
-                _editProfileCommand.EditProfile(model,user);
+                _editProfileCommand.Execute(model,user);
 
                 StatusMessage = "Your profile has been updated";
                 return new OkObjectResult(StatusMessage);

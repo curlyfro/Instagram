@@ -17,7 +17,7 @@ namespace Instagram.Commands
             _context = context;
         }
 
-        public void Follow(string userId, ApplicationUser currentUser)
+        public void Execute(string userId, ApplicationUser currentUser)
         {
             var user = _context.Users.Single(p => p.Id == userId);
             var following = _context.Followers.SingleOrDefault(

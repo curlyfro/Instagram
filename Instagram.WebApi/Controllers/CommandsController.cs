@@ -22,6 +22,7 @@ namespace Instagram.WebApi.Controllers
         private PutLikeCommand _putLikeCommand;
         private FollowCommand _followCommand;
         private CreatePostCommand _createPostCommand;
+        private DeletePostCommand _deletePostCommand;
 
         public CommandsController(
             ApplicationDbContext context,
@@ -32,6 +33,7 @@ namespace Instagram.WebApi.Controllers
             _putLikeCommand = new PutLikeCommand(context);
             _followCommand = new FollowCommand(context);
             _createPostCommand = new CreatePostCommand(context,hashtagFinder,appEnvironment);
+            _deletePostCommand=new DeletePostCommand(context,appEnvironment);
         }
 
         [HttpPost]
@@ -45,7 +47,7 @@ namespace Instagram.WebApi.Controllers
             var user = await _userManager.GetUserAsync(User);
             try
             {
-                _putLikeCommand.PutLike(postId, user);
+                _putLikeCommand.Execute(postId, user);
 
                 return new OkObjectResult(true);
             }
@@ -67,7 +69,7 @@ namespace Instagram.WebApi.Controllers
 
             try
             {
-                _followCommand.Follow(userId, user);
+                _followCommand.Execute(userId, user);
 
                 return new OkObjectResult(true);
             }
@@ -88,7 +90,28 @@ namespace Instagram.WebApi.Controllers
             var user = await _userManager.GetUserAsync(User);
             try
             {
-                _createPostCommand.CreatePost(user, model);
+                _createPostCommand.Execute(user, model);
+
+                return new OkObjectResult(true);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeletePost(Guid postId)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var user = await _userManager.GetUserAsync(User);
+            try
+            {
+                _deletePostCommand.Execute(postId,user);
 
                 return new OkObjectResult(true);
             }
