@@ -1,0 +1,16 @@
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Queries\bin\Debug\netcoreapp2.0\Instagram.Queries.deps.json
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Queries\bin\Debug\netcoreapp2.0\Instagram.Queries.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Queries\bin\Debug\netcoreapp2.0\Instagram.Queries.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Queries\bin\Debug\netcoreapp2.0\Instagram.DataAccess.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Queries\bin\Debug\netcoreapp2.0\Instagram.Domain.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Queries\bin\Debug\netcoreapp2.0\Instagram.ViewModels.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Queries\bin\Debug\netcoreapp2.0\Instagram.DataAccess.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Queries\bin\Debug\netcoreapp2.0\Instagram.ViewModels.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Queries\bin\Debug\netcoreapp2.0\Instagram.Domain.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Queries\obj\Debug\netcoreapp2.0\Instagram.Queries.csprojResolveAssemblyReference.cache
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Queries\obj\Debug\netcoreapp2.0\Instagram.Queries.csproj.CoreCompileInputs.cache
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Queries\obj\Debug\netcoreapp2.0\Instagram.Queries.AssemblyInfoInputs.cache
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Queries\obj\Debug\netcoreapp2.0\Instagram.Queries.AssemblyInfo.cs
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Queries\obj\Debug\netcoreapp2.0\Instagram.Queries.csproj.CopyComplete
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Queries\obj\Debug\netcoreapp2.0\Instagram.Queries.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Queries\obj\Debug\netcoreapp2.0\Instagram.Queries.pdb

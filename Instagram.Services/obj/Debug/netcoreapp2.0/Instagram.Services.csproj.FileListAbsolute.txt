@@ -1,8 +1,6 @@
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Services\bin\Debug\netcoreapp2.0\Instagram.Services.deps.json
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Services\bin\Debug\netcoreapp2.0\Instagram.Services.dll
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Services\bin\Debug\netcoreapp2.0\Instagram.Services.pdb
-C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Services\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Options.dll
-C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Services\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Options.xml
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Services\obj\Debug\netcoreapp2.0\Instagram.Services.csprojResolveAssemblyReference.cache
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Services\obj\Debug\netcoreapp2.0\Instagram.Services.csproj.CoreCompileInputs.cache
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Services\obj\Debug\netcoreapp2.0\Instagram.Services.AssemblyInfoInputs.cache
@@ -10,3 +8,7 @@ C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Services\obj\Debug\netcoreapp2
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Services\obj\Debug\netcoreapp2.0\Instagram.Services.csproj.CopyComplete
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Services\obj\Debug\netcoreapp2.0\Instagram.Services.dll
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Services\obj\Debug\netcoreapp2.0\Instagram.Services.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Services\bin\Debug\netcoreapp2.0\Instagram.DataAccess.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Services\bin\Debug\netcoreapp2.0\Instagram.Domain.dll
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Services\bin\Debug\netcoreapp2.0\Instagram.DataAccess.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Services\bin\Debug\netcoreapp2.0\Instagram.Domain.pdb

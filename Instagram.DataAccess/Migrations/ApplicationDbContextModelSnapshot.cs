@@ -103,6 +103,8 @@ namespace Instagram.DataAccess.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<DateTime>("DateOfFollowing");
+
                     b.Property<string>("FollowerUserId");
 
                     b.Property<string>("FollowingUserId");

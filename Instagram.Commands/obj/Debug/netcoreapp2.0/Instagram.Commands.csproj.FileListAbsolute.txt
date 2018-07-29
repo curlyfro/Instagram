@@ -6,3 +6,4 @@ C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\obj\Debug\netcoreapp2
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\obj\Debug\netcoreapp2.0\Instagram.Commands.AssemblyInfo.cs
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\obj\Debug\netcoreapp2.0\Instagram.Commands.dll
 C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\obj\Debug\netcoreapp2.0\Instagram.Commands.pdb
+C:\Users\DBT\Documents\GitHub\Instagram\Instagram.Commands\obj\Debug\netcoreapp2.0\Instagram.Commands.csprojResolveAssemblyReference.cache
