@@ -29,7 +29,7 @@ namespace Instagram.Commands
 
         public void CreatePost(ApplicationUser currentUser, CreatePostViewModel viewModel)
         {
-            string path = "/files/" + Guid.NewGuid();
+            string path = $"/files/{Guid.NewGuid()}_{viewModel.Photo.FileName}";
 
             using (var fileStream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
             {

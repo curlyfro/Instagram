@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Instagram.Commands;
 using Instagram.DataAccess;
 using Instagram.Domain;
 using Instagram.Services.Helpers;
@@ -25,24 +26,20 @@ namespace Instagram.WebApi.Controllers
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
-        private readonly IHostingEnvironment _environment;
         private readonly ILogger _logger;
-        private readonly ApplicationDbContext _context;
+        private EditProfileCommand _editProfileCommand;
 
         public AccountSettingsController(
             UserManager<ApplicationUser> userManager,
             SignInManager<ApplicationUser> signInManager,
-            IEmailSender emailSender,
             ILogger<AccountSettingsController> logger,
-            UrlEncoder urlEncoder,
             ApplicationDbContext context,
-            IHostingEnvironment appEnvironment, IHostingEnvironment environment)
+            IHostingEnvironment environment)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
-            _context = context;
-            _environment = environment;
+            _editProfileCommand=new EditProfileCommand(context,environment);
         }
 
         [TempData]
@@ -92,73 +89,17 @@ namespace Instagram.WebApi.Controllers
                 throw new ApplicationException($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
             }
 
-            if (Request.Form.Files.Any())
+            try
             {
-                if (Request.Form.Files.First().FileName.EndsWith(".png") ||
-                    Request.Form.Files.First().FileName.EndsWith(".jpg") ||
-                    Request.Form.Files.First().FileName.EndsWith(".gif") ||
-                    Request.Form.Files.First().FileName.EndsWith(".bmp") ||
-                    Request.Form.Files.First().FileName.EndsWith(".tif") ||
-                    Request.Form.Files.First().FileName.EndsWith(".dib"))
-                {
-                    string path = "/files/" + Request.Form.Files.First().FileName;
-                    FileInfo fileInfo = new FileInfo(_environment.WebRootPath + user.MainPhotoPath);
-                    if (!String.IsNullOrEmpty(user.MainPhotoPath))
-                    {
-                        fileInfo.Delete();
-                    }
+                _editProfileCommand.EditProfile(model,user);
 
-                    using (var fileStream = new FileStream(_environment.WebRootPath + path, FileMode.Create))
-                    {
-                        await Request.Form.Files.First().CopyToAsync(fileStream);
-                    }
-
-                    user.MainPhotoPath = path;
-                    _context.Users.Update(user);
-                    _context.SaveChanges();
-                    model.CurrentMainPhotoPath = user.MainPhotoPath;
-                    StatusMessage = "Your profile has been changed successfully";
-                }
-                else
-                {
-                    StatusMessage = "You can download only Image format files";
-                }
+                StatusMessage = "Your profile has been updated";
+                return new OkObjectResult(StatusMessage);
             }
-
-            var email = user.Email;
-            if (model.Email != email)
+            catch (Exception ex)
             {
-                var setEmailResult = await _userManager.SetEmailAsync(user, model.Email);
-                if (!setEmailResult.Succeeded)
-                {
-                    throw new ApplicationException($"Unexpected error occurred setting email for user with ID '{user.Id}'.");
-                }
+                return BadRequest(ex);
             }
-
-            var phoneNumber = user.PhoneNumber;
-            if (model.PhoneNumber != phoneNumber)
-            {
-                var setPhoneResult = await _userManager.SetPhoneNumberAsync(user, model.PhoneNumber);
-                if (!setPhoneResult.Succeeded)
-                {
-                    throw new ApplicationException($"Unexpected error occurred setting phone number for user with ID '{user.Id}'.");
-                }
-            }
-
-            if (model.FullName != user.FullName)
-            {
-                user.FullName = model.FullName;
-                await _userManager.UpdateAsync(user);
-            }
-
-            if (model.ProfileDesc != user.ProfileDesc)
-            {
-                user.ProfileDesc = model.ProfileDesc;
-                await _userManager.UpdateAsync(user);
-            }
-
-            StatusMessage = "Your profile has been updated";
-            return RedirectToAction(nameof(EditProfile));
         }
     }
 }
