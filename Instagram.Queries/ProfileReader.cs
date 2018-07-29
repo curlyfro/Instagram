@@ -19,8 +19,10 @@ namespace Instagram.Queries
             _context = context;
         }
 
-        public ProfileViewModel GetProfile(ApplicationUser user, ApplicationUser currentUser)
+        public ProfileViewModel GetProfile(string userId, ApplicationUser currentUser)
         {
+            var user = _context.Users.Single(p => p.Id == userId);
+
             var posts = _context.Posts
                 .Where(p => p.Creator == user)
                 .OrderByDescending(p => p.DateOfPublication)
